@@ -89,13 +89,4 @@ dotnet ef database update
 dotnet run
 Visit http://localhost:5239
 
-🧑‍💻 Author
-Isaac Peña — Behavioral Neuroscience + Computer Science, Northeastern University
-🎵 Software Engineer | Music Producer | Builder of creative tech
-
-“Blending music and engineering to make ideas sound alive.”
-
-⭐ Future Goal
-The long-term goal is to host a personal music cloud — a secure, lightweight service where anyone can upload and access their own songs from anywhere.
-A small but complete example of how software engineering, cloud infrastructure, and creativity intersect.
 
