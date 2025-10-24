@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Music Library</title>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+  <h1>🎧 Music Library</h1>
+
+  <section class="card">
+    <h3>Upload Song</h3>
+    <form id="uploadForm">
+      <input name="title" placeholder="Song title (optional)"/>
+      <input type="file" name="file" accept="audio/*" required/>
+      <button type="submit">Upload</button>
+    </form>
+  </section>
+
+  <section class="card">
+    <h3>Library</h3>
+    <table id="songTable">
+      <thead><tr><th>Title</th><th>Play</th><th>Delete</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <div class="player">
+    <div id="now">—</div>
+    <audio id="audio" controls style="width:100%"></audio>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
